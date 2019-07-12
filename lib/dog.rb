@@ -20,7 +20,7 @@ class Dog
 
   def self.print_all # def print_all also works? Why is that?
     @@all.each do |dog|
-      puts dog
+      puts dog.name
     end
   end
 
