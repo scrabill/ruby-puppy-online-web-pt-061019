@@ -8,7 +8,7 @@ class Dog
     @@all << self
   end
 
-  def self.all
+  def self.all # Self is needed so that we're referring to the Dog class (all dog instances) and now *one* instance of a dog
     @@all
   end
 
