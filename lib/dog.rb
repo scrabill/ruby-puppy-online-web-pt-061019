@@ -7,7 +7,7 @@ class Dog
 
   def initialize(name)
     @name = name
-    @@all << self
+    @@all << self # Add each new dog, when it is created, to the array of all of the dogs
   end
 
   def self.all # Self is needed so that we're referring to the Dog class (all dog instances) and now *one* instance of a dog
