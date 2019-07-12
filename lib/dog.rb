@@ -19,11 +19,9 @@ class Dog
   end
 
   def self.print_all # def print_all also works? Why is that?
-    # @@all.each do |dog|
-    #   puts dog
-    # end
-
-    puts @@all[0].name
+    @@all.each do |dog|
+      puts dog
+    end
   end
 
 
