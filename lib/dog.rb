@@ -12,7 +12,7 @@ class Dog
     @@all
   end
 
-  def self.print_all
+  def self.print_all # def print_all also works?
     @@all.each do |dog|
       puts dog
     end
