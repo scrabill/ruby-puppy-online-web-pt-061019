@@ -14,7 +14,7 @@ class Dog
 
   def self.print_all # def print_all also works? Why is that?
     @@all.each do |dog|
-      puts dog.name
+      puts dog
     end
   end
 
