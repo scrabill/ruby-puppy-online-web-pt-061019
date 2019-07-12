@@ -15,7 +15,7 @@ class Dog
   end
 
   def self.clear_all
-    @@all.clear
+    @@all.clear # Please do not delete all of the dogs :()
   end
 
   def self.print_all # def print_all also works? Why is that?
