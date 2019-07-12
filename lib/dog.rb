@@ -15,5 +15,6 @@ class Dog
   def print_all
     @@all.each do |dog|
       puts dog
+    en
   end
 end
