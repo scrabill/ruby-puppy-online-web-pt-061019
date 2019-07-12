@@ -21,7 +21,7 @@ class Dog
     #   puts dog
     # end
 
-    puts @@all
+    puts @@all[0].name
   end
 
 
