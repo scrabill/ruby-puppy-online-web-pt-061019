@@ -1,7 +1,7 @@
 # Add your code here
 class Dog
 
-  attr_accessor :name
+  attr_accessor :name # A writer and reader for each dog needs to be created, so that we can reference it in a later function
 
   @@all = []
 
