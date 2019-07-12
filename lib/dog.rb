@@ -12,7 +12,7 @@ class Dog
     @@all
   end
 
-  def print_all # def print_all also works? Why is that?
+  def self.print_all # def print_all also works? Why is that?
     @@all.each do |dog|
       puts dog
     end
